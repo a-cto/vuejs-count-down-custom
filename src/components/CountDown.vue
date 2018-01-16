@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    props: ['time', 'autoStart'],
+    props: ['time','id', 'autoStart'],
     data() {
         return {
             seconds: null,
@@ -42,7 +42,7 @@ export default {
         },
         start() {
             this.interval = setInterval(
-                () => this.seconds--                
+                () => this.seconds--
             , 1000)
         },
         stop() {
@@ -53,7 +53,7 @@ export default {
             this.$emit('onFinish')
         },
         countDownProgress() {
-            this.$emit('onProgress', this.seconds)
+            this.$emit('onProgress', this.seconds, this.id)
         }
     },
 }

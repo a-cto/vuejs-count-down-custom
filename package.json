@@ -1,7 +1,7 @@
 {
-  "name": "vuejs-count-down",
-  "version": "0.0.5",
-  "description": "Vue.js countdown component",
+  "name": "vuejs-count-down-custom",
+  "version": "0.0.1",
+  "description": " forked form vuejs-count-down",
   "jsnext": "dist/bundle.js",
   "main": "dist/bundle.common.js",
   "directories": {
