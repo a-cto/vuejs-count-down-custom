@@ -1,6 +1,6 @@
 {
   "name": "vuejs-count-down-custom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " forked form vuejs-count-down",
   "jsnext": "dist/bundle.js",
   "main": "dist/bundle.common.js",
@@ -21,13 +21,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nonide/vuejs-count-down.git"
+    "url": "git+https://github.com/a-cto/vuejs-count-down-custom.git"
   },
   "files": [
     "dist/",
     "src/"
   ],
-  "author": "nonide",
+  "author": "a-cto",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.16.4",
